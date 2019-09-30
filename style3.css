@@ -1,0 +1,69 @@
+body{
+  font-family: sans-serif;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(67,144,233,1) 0%, rgba(78,226,198,1) 90.1% ););
+}
+.head a{
+  font-size: 20px;
+  color:red !important;
+  float: left;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.hover-anim:hover{
+  background-color: gray !important;
+  color: orange !important;
+}
+
+.info-btn{
+  argin-top: 2px;
+}
+.jumbotron {
+  margin-bottom: 50px;
+  margin-top: -20px;
+  color: orange;
+  background-image: linear-gradient( #232526,#414345); 
+}
+.footer {
+   margin-top: 50px;
+   left: 0;
+   bottom: 0px;
+   width: 100%;
+   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(239,246,249,1) 0%, rgba(206,239,253,1) 90% );
+   text-align: center;
+   color: black;
+}
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  
+}
+@media only screen and (min-width: 992px) {
+  
+}
